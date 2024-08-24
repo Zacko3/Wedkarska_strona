@@ -1,3 +1,4 @@
+<b>
 1.	Opis projektu: 
   Strona internetowa dla wędkarzy ma na celu dostarczenie użytkownikom platformy do dzielenia się informacjami o wędkowaniu, przeglądania miejsc połowów oraz śledzenia nadchodzących turniejów wędkarskich. Strona będzie      zawierać dane o łowiskach, rybach, sprzęcie wędkarskim oraz umożliwiać rejestrację użytkowników, śledzenie swoich połowów i zapis na turnieje.
   Technologie użyte w projekcie:
@@ -40,4 +41,4 @@ Instalacja i Konfiguracja Projektu
 4.	CSS - Stylizacja strony:
   o	Stworzenie responego design’u, który działa dobrze na różnych urządzeniach (telefony, tablety, komputery).
   o	stylizacja przycisków, formularzy, mapy łowisk oraz sekcji profilu użytkownika.
-
+</b>
