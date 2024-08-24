@@ -1,5 +1,5 @@
 ```
-1.	Opis projektu: 
+Opis projektu: 
   Strona internetowa dla wędkarzy ma na celu dostarczenie użytkownikom platformy do dzielenia się informacjami o wędkowaniu, przeglądania miejsc połowów oraz śledzenia nadchodzących turniejów wędkarskich. Strona będzie      zawierać dane o łowiskach, rybach, sprzęcie wędkarskim oraz umożliwiać rejestrację użytkowników, śledzenie swoich połowów i zapis na turnieje.
   Technologie użyte w projekcie:
   •	SQL: Do zarządzania bazą danych, w tym użytkownikami, danymi o łowiskach, rybach oraz turniejach.
