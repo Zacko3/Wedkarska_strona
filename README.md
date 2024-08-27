@@ -31,6 +31,7 @@ Instalacja i Konfiguracja Projektu
     	fish_species (gatunki ryb)
     	catches (połowy użytkowników)
     	tournaments (nadchodzące turnieje)
+![relacje_projekt](https://github.com/user-attachments/assets/f732a2c6-1732-4b32-be23-adb4c5d9e90d)
 2.	HTML - Struktura strony:
   o	Strona główna z sekcjami: łowiska, ryby, nadchodzące turnieje, profil użytkownika
   o	Każda strona powinna być podzielona na główne elementy: nagłówek, treść, stopka.
