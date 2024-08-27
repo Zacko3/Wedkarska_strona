@@ -43,3 +43,4 @@ Instalacja i Konfiguracja Projektu
   o	Stworzenie responego design’u, który działa dobrze na różnych urządzeniach (telefony, tablety, komputery).
   o	stylizacja przycisków, formularzy, mapy łowisk oraz sekcji profilu użytkownika.
 ```
+![relacje_projekt](https://github.com/user-attachments/assets/f732a2c6-1732-4b32-be23-adb4c5d9e90d)
