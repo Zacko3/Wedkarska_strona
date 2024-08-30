@@ -62,4 +62,6 @@ o	Strona rejestracji nowego użytkownika z formularzem wymagającym podania imie
     o	lastname (TEXT): Nazwisko użytkownika.
     o	email (TEXT, UNIQUE): Adres e-mail użytkownika, musi być unikalny.
     o	password (TEXT): Hasło użytkownika, przechowywane w formie zaszyfrowanej.
+
 '''
+   
