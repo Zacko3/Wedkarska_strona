@@ -1,4 +1,4 @@
-```
+
                                                                       __interfejs użytkownika__
 1.	Strona główna:
 o	Przedstawia główną stronę projektu, zawierającą mapę łowisk oraz sekcję „Nadchodzące Turnieje”. Widać, że mapa wyświetla lokalizacje, a poniżej znajduje się lista nadchodzących turniejów.
