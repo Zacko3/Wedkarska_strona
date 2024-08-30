@@ -13,7 +13,7 @@ o	Strona rejestracji nowego użytkownika z formularzem wymagającym podania imie
 
 
 
-                                                       <strong>Baza danych</strong>
+                                                        <strong>Baza danych</strong>
 1. Tabela catches:
   •	Przechowuje informacje o połowach użytkowników.
   •	Kolumny:
