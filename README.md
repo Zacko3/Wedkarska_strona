@@ -1,4 +1,4 @@
-'''
+"
                                                                       interfejs użytkownika
 1.	Strona główna:
 o	Przedstawia główną stronę projektu, zawierającą mapę łowisk oraz sekcję „Nadchodzące Turnieje”. Widać, że mapa wyświetla lokalizacje, a poniżej znajduje się lista nadchodzących turniejów.
@@ -63,5 +63,5 @@ o	Strona rejestracji nowego użytkownika z formularzem wymagającym podania imie
     o	email (TEXT, UNIQUE): Adres e-mail użytkownika, musi być unikalny.
     o	password (TEXT): Hasło użytkownika, przechowywane w formie zaszyfrowanej.
 
-'''
+"
    
