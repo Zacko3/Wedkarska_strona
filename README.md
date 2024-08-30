@@ -2,7 +2,7 @@
                                                      <strong>interfejs użytkownika</strong>
 1.	Strona główna:
 o	Przedstawia główną stronę projektu, zawierającą mapę łowisk oraz sekcję „Nadchodzące Turnieje”. Widać,
-          że mapa wyświetla lokalizacje, a poniżej znajduje się lista nadchodzących turniejów.
+        że mapa wyświetla lokalizacje, a poniżej znajduje się lista nadchodzących turniejów.
 </pre>
   ![view1](https://github.com/user-attachments/assets/a804f033-318f-4059-9694-b90b76e7996b)
 <pre>
