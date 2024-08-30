@@ -1,5 +1,5 @@
 '''
-                                                                      __interfejs użytkownika__
+                                                                      interfejs użytkownika
 1.	Strona główna:
 o	Przedstawia główną stronę projektu, zawierającą mapę łowisk oraz sekcję „Nadchodzące Turnieje”. Widać, że mapa wyświetla lokalizacje, a poniżej znajduje się lista nadchodzących turniejów.
 2.	Strona turniejów:
@@ -13,7 +13,7 @@ o	Strona rejestracji nowego użytkownika z formularzem wymagającym podania imie
 
 
 
-                                                                         __Baza danych __
+                                                                         Baza danych
 1. Tabela catches:
   •	Przechowuje informacje o połowach użytkowników.
   •	Kolumny:
