@@ -24,7 +24,7 @@ Funkcjonalności
 
 Instalacja i Konfiguracja Projektu
 1.	SQL - Baza danych:
-  o	instalacja serwera baz danych (np. SQLite).
+  o	instalacja serwera baz danych (SQLite).
   o	Tworzenie bazy danych  wędkarstwo i tabele:
     	users (dane użytkowników)
     	locations (informacje o łowiskach)
