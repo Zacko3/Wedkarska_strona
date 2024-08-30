@@ -83,3 +83,4 @@ o	Strona rejestracji nowego użytkownika z formularzem wymagającym podania imie
     o	email (TEXT, UNIQUE): Adres e-mail użytkownika, musi być unikalny.
     o	password (TEXT): Hasło użytkownika, przechowywane w formie zaszyfrowanej.
 </pre>
+![image](https://github.com/user-attachments/assets/9d2c32a7-2f8a-4d2d-8e31-03abb213e670)
