@@ -65,4 +65,4 @@ o	Strona rejestracji nowego użytkownika z formularzem wymagającym podania imie
     o	password (TEXT): Hasło użytkownika, przechowywane w formie zaszyfrowanej.
 
 </pre>
-   
+![view1](https://github.com/user-attachments/assets/a804f033-318f-4059-9694-b90b76e7996b)
