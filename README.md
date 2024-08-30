@@ -1,46 +1,65 @@
 ```
-Opis projektu: 
-  Strona internetowa dla wędkarzy ma na celu dostarczenie użytkownikom platformy do dzielenia się informacjami o wędkowaniu, przeglądania miejsc połowów oraz śledzenia nadchodzących turniejów wędkarskich. Strona będzie      zawierać dane o łowiskach, rybach, sprzęcie wędkarskim oraz umożliwiać rejestrację użytkowników, śledzenie swoich połowów i zapis na turnieje.
-  Technologie użyte w projekcie:
-  •	SQL: Do zarządzania bazą danych, w tym użytkownikami, danymi o łowiskach, rybach oraz turniejach.
-  •	HTML: Struktura strony internetowej, na której użytkownicy mogą przeglądać i korzystać z dostępnych funkcji.
-  •	PHP: Logika aplikacji do przetwarzania danych, komunikacja z bazą danych SQL oraz obsługa formularzy.
-  •	CSS: Stylizacja strony internetowej, aby była estetyczna i czytelna dla użytkowników.
-Funkcjonalności
-1.	Rejestracja i logowanie użytkowników:
-  o	Użytkownicy mogą zarejestrować konto, podając swoje dane (imię, nazwisko, e-mail, hasło).
-  o	Po rejestracji użytkownicy mogą się logować i uzyskać dostęp do swojego profilu, gdzie mogą przeglądać swoje połowy oraz zgłaszać się na nadchodzące turnieje.
-2.	Mapa Łowisk:
-  o	mapa, na której użytkownicy mogą przeglądać zlokalizowane łowiska.
-3.	Informacje o rybach:
-  o	Katalog różnych gatunków ryb z opisami, najlepszymi metodami połowów i poradami na temat używania odpowiedniego sprzętu.
-  o	Użytkownicy mogą dodawać opisy i wyniki swoich złowionych ryb i zapisywać je w swoim profilu.
-4.	Nadchodzące Turnieje:
-  o	Sekcja, w której użytkownicy mogą przeglądać listę nadchodzących turniejów wędkarskich.
-  o	Informacje o dacie, miejscu, opłacie wpisowej i zasadach uczestnictwa.
-5.	Rejestracja połowów:
-  o	Użytkownicy mogą rejestrować swoje połowy, dodając zdjęcia, gatunek złowionej ryby, wagę, długość oraz miejsce połowu.
-  o	System automatycznie generuje statystyki użytkowników, takie jak największa złowiona ryba czy liczba złowionych ryb w danym roku.
+                                                                      **interfejs użytkownika**
+1.	Strona główna:
+o	Przedstawia główną stronę projektu, zawierającą mapę łowisk oraz sekcję „Nadchodzące Turnieje”. Widać, że mapa wyświetla lokalizacje, a poniżej znajduje się lista nadchodzących turniejów.
+2.	Strona turniejów:
+o	Przedstawia stronę z listą nadchodzących turniejów. Widać szczegóły turnieju, takie jak data, miejsce oraz opłata wpisowa.
+3.	Strona profilu użytkownika:
+o	Pokazuje stronę powitalną dla zalogowanego użytkownika Kamila. Widać sekcję „Twoje Połowy” z listą złowionych ryb i możliwością dodania nowego połowu.
+4.	Strona logowania:
+o	Strona logowania z prostym formularzem, w którym użytkownicy wpisują swoje dane logowania: e-mail oraz hasło, aby uzyskać dostęp do swoich profili.
+5.	Strona rejestracji:
+o	Strona rejestracji nowego użytkownika z formularzem wymagającym podania imienia, nazwiska, e-maila i hasła.
 
-Instalacja i Konfiguracja Projektu
-1.	SQL - Baza danych:
-  o	instalacja serwera baz danych (SQLite).
-  o	Tworzenie bazy danych  wędkarstwo i tabele:
-    	users (dane użytkowników)
-    	locations (informacje o łowiskach)
-    	fish_species (gatunki ryb)
-    	catches (połowy użytkowników)
-    	tournaments (nadchodzące turnieje)
-![relacje_projekt](https://github.com/user-attachments/assets/f732a2c6-1732-4b32-be23-adb4c5d9e90d)
-2.	HTML - Struktura strony:
-  o	Strona główna z sekcjami: łowiska, ryby, nadchodzące turnieje, profil użytkownika
-  o	Każda strona powinna być podzielona na główne elementy: nagłówek, treść, stopka.
-3.	PHP - Logika aplikacji:
-  o	Skrypt do obsługi rejestracji i logowania użytkowników z walidacją danych oraz zabezpieczeniami.
-  o	Skrypty do obsługi formularzy dodawania łowisk, połowów oraz zgłaszania się na turnieje.
-  o	Komunikacja z bazą danych SQL poprzez PDO, np. do pobierania listy turniejów.
-4.	CSS - Stylizacja strony:
-  o	Stworzenie responego design’u, który działa dobrze na różnych urządzeniach (telefony, tablety, komputery).
-  o	stylizacja przycisków, formularzy, mapy łowisk oraz sekcji profilu użytkownika.
-```
-![relacje_projekt](https://github.com/user-attachments/assets/f732a2c6-1732-4b32-be23-adb4c5d9e90d)
+
+
+                                                                        **Baza danych**
+1. Tabela catches:
+  •	Przechowuje informacje o połowach użytkowników.
+  •	Kolumny:
+    o	id (INTEGER, PRIMARY KEY AUTOINCREMENT): Unikalny identyfikator połowu.
+    o	user_id (INTEGER): Identyfikator użytkownika, który dodał połów (odniesienie do tabeli users).
+    o	species_id (INTEGER): Identyfikator gatunku ryby (odniesienie do tabeli fish_species).
+    o	weight (REAL): Waga złowionej ryby.
+    o	length (REAL): Długość złowionej ryby.
+    o	location_id (INTEGER): Identyfikator miejsca połowu (odniesienie do tabeli locations).
+    o	photo (TEXT): Ścieżka do zdjęcia połowu.
+
+2. Tabela fish_species:
+  •	Przechowuje informacje o gatunkach ryb.
+  •	Kolumny:
+    o	id (INTEGER, PRIMARY KEY AUTOINCREMENT): Unikalny identyfikator gatunku ryby.
+    o	name (TEXT): Nazwa gatunku ryby.
+    o	description (TEXT): Opis gatunku ryby.
+    o	tips (TEXT): Porady dotyczące połowu danego gatunku ryby.
+
+3. Tabela locations:
+  •	Przechowuje informacje o łowiskach, czyli miejscach połowu.
+  •	Kolumny:
+    o	id (INTEGER, PRIMARY KEY AUTOINCREMENT): Unikalny identyfikator miejsca połowu.
+    o	name (TEXT): Nazwa łowiska.
+    o	description (TEXT): Opis łowiska.
+    o	fish_species (TEXT): Gatunki ryb, które można złowić na tym łowisku.
+    o	best_times (TEXT): Najlepsze pory na połów w danym miejscu.
+4. Tabela sqlite_sequence:
+  •	Specjalna tabela SQLite, używana do przechowywania informacji o wartościach autoincrement dla tabel w bazie danych.
+
+5. Tabela tournaments:
+  •	Przechowuje informacje o turniejach wędkarskich.
+  •	Kolumny:
+    o	id (INTEGER, PRIMARY KEY AUTOINCREMENT): Unikalny identyfikator turnieju.
+    o	name (TEXT): Nazwa turnieju.
+    o	date (TEXT): Data odbycia się turnieju.
+    o	location (TEXT): Lokalizacja turnieju.
+    o	entry_fee (REAL): Opłata wpisowa na turniej.
+    o	rules (TEXT): Zasady obowiązujące na turnieju.
+
+6. Tabela users:
+  •	Przechowuje informacje o użytkownikach aplikacji.
+  •	Kolumny:
+    o	id (INTEGER, PRIMARY KEY AUTOINCREMENT): Unikalny identyfikator użytkownika.
+    o	firstname (TEXT): Imię użytkownika.
+    o	lastname (TEXT): Nazwisko użytkownika.
+    o	email (TEXT, UNIQUE): Adres e-mail użytkownika, musi być unikalny.
+    o	password (TEXT): Hasło użytkownika, przechowywane w formie zaszyfrowanej.
+'''
