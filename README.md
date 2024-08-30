@@ -1,8 +1,8 @@
 <pre>
                                                      <strong>interfejs użytkownika</strong>
 1.	Strona główna:
-o	Przedstawia główną stronę projektu, zawierającą mapę łowisk oraz sekcję „Nadchodzące Turnieje”. Widać,
-        że mapa wyświetla lokalizacje, a poniżej znajduje się lista nadchodzących turniejów.
+o	Przedstawia główną stronę projektu, zawierającą mapę łowisk oraz sekcję „Nadchodzące Turnieje”.
+        Widać, że mapa wyświetla lokalizacje, a poniżej znajduje się lista nadchodzących turniejów.
 </pre>
   ![view1](https://github.com/user-attachments/assets/a804f033-318f-4059-9694-b90b76e7996b)
 <pre>
@@ -27,7 +27,8 @@ o	Strona logowania z prostym formularzem, w którym użytkownicy wpisują swoje
 
 <pre>
 5.	Strona rejestracji:
-o	Strona rejestracji nowego użytkownika z formularzem wymagającym podania imienia, nazwiska, e-maila i hasła.
+o	Strona rejestracji nowego użytkownika z formularzem wymagającym podania imienia,
+        nazwiska, e-maila i hasła.
 </pre>
 ![view5](https://github.com/user-attachments/assets/7e50ae55-d5a0-4081-81b4-b03eb7b86dbc)
 
