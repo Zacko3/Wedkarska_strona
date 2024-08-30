@@ -13,13 +13,15 @@ o	Przedstawia stronę z listą nadchodzących turniejów. Widać szczegóły tur
 
 <pre>
 3.	Strona profilu użytkownika:
-o	Pokazuje stronę powitalną dla zalogowanego użytkownika Kamila. Widać sekcję „Twoje Połowy” z listą złowionych ryb i możliwością dodania nowego połowu.
+o	Pokazuje stronę powitalną dla zalogowanego użytkownika Kamila. 
+        Widać sekcję „Twoje Połowy” z listą złowionych ryb i możliwością dodania nowego połowu.
 </pre>
 ![view3](https://github.com/user-attachments/assets/62dcb35f-ce6a-4263-a2f9-ff56fadd572d)
 
 <pre>
 4.	Strona logowania:
-o	Strona logowania z prostym formularzem, w którym użytkownicy wpisują swoje dane logowania: e-mail oraz hasło, aby uzyskać dostęp do swoich profili.
+o	Strona logowania z prostym formularzem, w którym użytkownicy wpisują swoje
+        dane logowania: e-mail oraz hasło, aby uzyskać dostęp do swoich profili.
 </pre>
 ![view4](https://github.com/user-attachments/assets/7069830f-6dfa-4085-aa74-59bc61476e3f)
 
