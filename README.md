@@ -9,12 +9,25 @@ o	Przedstawia główną stronę projektu, zawierającą mapę łowisk oraz sekcj
 2.	Strona turniejów:
 o	Przedstawia stronę z listą nadchodzących turniejów. Widać szczegóły turnieju, takie jak data, miejsce oraz opłata wpisowa.
 </pre>
+![view2](https://github.com/user-attachments/assets/398380ba-9874-4ec4-981c-b4b423b23dd5)
+
+<pre>
 3.	Strona profilu użytkownika:
 o	Pokazuje stronę powitalną dla zalogowanego użytkownika Kamila. Widać sekcję „Twoje Połowy” z listą złowionych ryb i możliwością dodania nowego połowu.
+</pre>
+![view3](https://github.com/user-attachments/assets/62dcb35f-ce6a-4263-a2f9-ff56fadd572d)
+
+<pre>
 4.	Strona logowania:
 o	Strona logowania z prostym formularzem, w którym użytkownicy wpisują swoje dane logowania: e-mail oraz hasło, aby uzyskać dostęp do swoich profili.
+</pre>
+![view4](https://github.com/user-attachments/assets/7069830f-6dfa-4085-aa74-59bc61476e3f)
+
+<pre>
 5.	Strona rejestracji:
 o	Strona rejestracji nowego użytkownika z formularzem wymagającym podania imienia, nazwiska, e-maila i hasła.
+</pre>
+![view5](https://github.com/user-attachments/assets/7e50ae55-d5a0-4081-81b4-b03eb7b86dbc)
 
 
 
@@ -67,6 +80,3 @@ o	Strona rejestracji nowego użytkownika z formularzem wymagającym podania imie
     o	lastname (TEXT): Nazwisko użytkownika.
     o	email (TEXT, UNIQUE): Adres e-mail użytkownika, musi być unikalny.
     o	password (TEXT): Hasło użytkownika, przechowywane w formie zaszyfrowanej.
-
-</pre>
-![view1](https://github.com/user-attachments/assets/a804f033-318f-4059-9694-b90b76e7996b)
