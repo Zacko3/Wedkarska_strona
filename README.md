@@ -30,7 +30,7 @@ o	Strona rejestracji nowego użytkownika z formularzem wymagającym podania imie
 ![view5](https://github.com/user-attachments/assets/7e50ae55-d5a0-4081-81b4-b03eb7b86dbc)
 
 
-
+<pre>
                                                         <strong>Baza danych</strong>
 1. Tabela catches:
   •	Przechowuje informacje o połowach użytkowników.
@@ -80,3 +80,4 @@ o	Strona rejestracji nowego użytkownika z formularzem wymagającym podania imie
     o	lastname (TEXT): Nazwisko użytkownika.
     o	email (TEXT, UNIQUE): Adres e-mail użytkownika, musi być unikalny.
     o	password (TEXT): Hasło użytkownika, przechowywane w formie zaszyfrowanej.
+</pre>
